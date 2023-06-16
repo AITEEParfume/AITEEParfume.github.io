@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400;0,500;1,600;1,700;1,800&family=Oswald:wght@400;500;600;700&display=swap');
+html,
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #ff85a2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffd1dc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+    color: #333333;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+h2 {
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.parfum img {
+    width: 290px;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parfum {
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.parfum .nama {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.parfum .harga {
+    color: #888888;
+    padding-top: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+.price {
+  border: 1px solid black;
+  padding: 5px;
+  display: inline-block;
+  font-family: Arial;
+  padding-top: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+.price:hover {
+  background-color: #ff85a2;
+}
+.parfum .komposisi {
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+.parfum .komposisi li {
+  padding-top: 2px;
+  margin-top: 2px;
+}
+    
+.item {
+        width: 200px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid black;
+        display:inline-block;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+.item:hover {
+        background-color: #ff85a2;
+    }
+.order-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.order-button:hover {
+    background-color: #45a049;
+}
+p {
+flex: 1 1 18rem;
+font-size: 1.2rem;
+margin: 0.5rem 0 1rem;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+footer p {
+    font-size: 14px;
+    color: #333333;
+}
+/* CSS for Desktop */
+@media screen and (min-width: 768px) {
+  .parfum {
+    align-items: center;
+    justify-content: center;
+  }
+    .parfum img {
+        width: 290px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
